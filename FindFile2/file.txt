@@ -1,0 +1,6 @@
+This is the text file for file open.  Line 1
+This is the text file for file open.  Line 2
+This is the text file for file open.  Line 3
+This is the text file for file open.  Line 4
+This is the text file for file open.  Line 6
+This is the text file for file open.  Line 6
