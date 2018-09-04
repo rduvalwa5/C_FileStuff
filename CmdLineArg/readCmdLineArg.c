@@ -9,16 +9,11 @@
 
 int main( int argc, char *argv[] )  {
 
-	printf("Arguments are: %s, %s, %s \n", argv[0] , argv[1], argv[2]);
+	printf("Arguments are: %s %s\n", argv[0] , argv[1]);
 
-   if( argc == 3 ) {
-      printf("The argument supplied is %s\n", argv[1]);
-   }
-   else if( argc != 3 ) {
+   if( argc == 2 ) {
+      printf("Syntax is readCmdLineArg.exe argument\n");
       printf("Expect command and two argument.\n");
-   }
-   else {
-      printf("Two argument expected.\n");
    }
 
    printf("Argv0 is %s\n",argv[0]);
