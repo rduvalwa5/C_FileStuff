@@ -4,7 +4,7 @@
  *  Created on: Sep 2, 2018
  *      Author: rduvalwa2
  *   find\ \ /etc/\ \ -name\ hosts
- *   windows "arg_1 as string"  arg2  arg3-dash  arg4:colon 'arg5 apost'  `arg6 with\``  arg7 with quotes
+ *   windows "arg_1 as string"  arg2  arg3-dash  arg4:colon 'arg5 apost'  `arg6 with\``  arg7 without quotes
  */
 
 #include <stdio.h>
