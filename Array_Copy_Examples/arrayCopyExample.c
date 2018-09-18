@@ -3,6 +3,7 @@
  *
  *  Created on: Sep 17, 2018
  *      Author: rduvalwa2
+ *      find\ \ /etc/\ \ -name\ hosts*   //etc/hosts  inputFile1  inputFile2 inputFile3
  */
 
 #include <stdio.h>
@@ -50,22 +51,31 @@ int main( int argc, char *argv[] )  {
 	for(i =  0; i < argc; i++){
 		printf("%s\n", myFiles[i].fName);
 	}
-}
-	/*
-    p = popen(argv[1],"r");
+
+	  char popArgument[200];
+//	  strcat(myFiles[2].fName, myFiles[1].fName);
+//	  printf("result is %s\n", myFiles[1].fName);
+	  strcpy(popArgument,strcat(strcat(myFiles[1].fName,"  "), myFiles[2].fName));
+
+
+//	  strcat(popArgumenmt, myFiles[2].fName);
+	  printf("\n%s\n",popArgument);
+
+
+    p = popen(popArgument,"r");
     if( p == NULL){
         puts("Unable to open process");
         return(1); }
 
     while( (ch=fgetc(p)) != EOF){
         putchar(ch);
-        while(ch != '\n'){
-        	myFile[myFileMem] = ch;
-        	myFileMem++;
-        }
-        insertLetter(ch);
+ //       while(ch != '\n'){
+ //       	myFile[myFileMem] = ch;
+ //       	myFileMem++;
+ //       }
+ //       insertLetter(ch);
          }
-    	printf("\n");
+ //   	printf("\n");
 
 }
-*/
+
