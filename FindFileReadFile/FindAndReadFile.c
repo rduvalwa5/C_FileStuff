@@ -7,10 +7,14 @@
  *   find\ \ //Users/rduvalwa2\ \ -name\ hosts.txt    //Users/rduvalwa2/hosts.txt
  *	 find\ //Users/rduvalwa2/Desktop\ -name\ test_library.py
  *   find\ \ /etc/\ \ -name  hosts*
+ *
+ *   /Users/rduvalwa2/eclipse-c-workspace/ReadDirFile/TestFile.txt
  */
 
 #include <stdio.h>
 #include <string.h>
+
+
 
 int main( int argc, char *argv[] )  {
 
